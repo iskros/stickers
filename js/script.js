@@ -14,6 +14,7 @@ $(document).ready(function  () {
 			$('.macbook .sticker').draggable({containment:'.macbook'});		
 		} else {
 			alert('No place');
+			n = 0;
 		}
 	});
 

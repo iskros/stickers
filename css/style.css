@@ -6,11 +6,17 @@ html, body {
 }
 
 .main {
-	margin: 0 auto;
+	margin: auto;
 	width: 960px;	
+}
+.head {
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
 }
 .stickers {
 	height: 128px;	
+	margin-top: 20px;	
 }
 .sticker {		
 	float: left;
@@ -23,13 +29,17 @@ html, body {
 .sticker#android {
 	background: url(../images/android.png);
 }
-
-
+.sticker#js {
+	background: url(../images/js.png);
+}
+.sticker#like {
+	background: url(../images/like.png);
+}
 .sticker:hover {
 	cursor: pointer;
 }
 .macbook {
-	margin: auto;
+	margin: 20px auto;
 	background: url(../images/macbook_top.png);
 	width: 592px;
 	height: 402px;
