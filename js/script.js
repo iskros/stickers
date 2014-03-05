@@ -13,12 +13,12 @@ $(document).ready(function  () {
 	  		$('.macbook').append('<div class="sticker new" id="' + id +  '"></div>');  		
 			$('.macbook .sticker').draggable({containment:'.macbook'});		
 		} else {
-			alert('No place');
-			n = 0;
+			alert('No place');			
 		}
 	});
 
 	$('.clear').click(function  () {
 		$('.macbook div').remove();
+		n = 0;
 	});
 });
